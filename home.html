@@ -1,0 +1,242 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Windows XP Second Edition</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <style type="text/css">
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Tahoma, Arial, sans-serif;
+            background-color: #3A6EA5;
+            color: #000000;
+        }
+
+        #header {
+            background: #0A246A;
+            color: white;
+            padding: 20px;
+            font-size: 32px;
+            font-weight: bold;
+            text-align: center;
+            border-bottom: 4px solid #F3F3F3;
+        }
+
+        #container {
+            width: 800px;
+            margin: 30px auto;
+            background-color: #FFFFFF;
+            border: 3px solid #0A246A;
+            padding: 15px;
+            opacity: 0.95;
+            filter: alpha(opacity=95); /* IE8/older */
+        }
+
+        .disclaimer {
+            background-color: #FFFAAA;
+            border: 2px solid #FFCC00;
+            padding: 10px;
+            margin-bottom: 20px;
+            font-size: 12px;
+        }
+
+        .section {
+            padding: 20px;
+            border-bottom: 2px groove #AAAAAA;
+        }
+
+        .section h2 {
+            color: #0A246A;
+            font-size: 20px;
+            margin-top: 0;
+        }
+
+        .section h3 {
+            font-size: 16px;
+            color: #0A246A;
+            margin-top: 10px;
+        }
+
+        p {
+            font-size: 14px;
+            line-height: 1.5;
+        }
+
+        .download-list {
+            list-style-type: square;
+            padding-left: 20px;
+        }
+
+        .download-list li {
+            margin-bottom: 10px;
+        }
+
+        a {
+            color: #003399;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #FF6600;
+            text-decoration: underline;
+        }
+
+        #footer {
+            background-color: #0A246A;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            font-size: 12px;
+            border-top: 2px solid #F3F3F3;
+        }
+
+        /* Discord Button with icon separate */
+        .discord-center {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .discord-center a {
+            display: inline;
+            text-decoration: none;
+            font-size: 12px;
+            font-weight: bold;
+            color: black;
+        }
+
+        .discord-center a span.icon {
+            display: inline-block;
+            width: 18px;
+            height: 18px;
+            vertical-align: middle;
+            margin-right: 6px;
+            background: url('https://cdn-icons-png.flaticon.com/512/2111/2111370.png') no-repeat center center;
+            background-size: contain;
+        }
+
+        .discord-center a span.text {
+            display: inline-block;
+            padding: 6px 12px;
+            border: 2px outset #FFFFFF;
+            background-color: #ECE9D8;
+        }
+
+        .discord-center a span.text:active {
+            border: 2px inset #FFFFFF;
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- Music -->
+<bgsound src="title.wma" loop="infinite">
+<audio src="title.mp3" autoplay loop></audio>
+
+<div id="header">
+    Windows XP Second Edition
+</div>
+
+<div id="container">
+
+    <!-- LegacyUpdate notice -->
+    <div class="disclaimer">
+        [!] Before installing anything, please make sure your computer is updated via <a href="https://legacyupdate.net/" target="_blank">LegacyUpdate.net</a>.
+        Updates may fail multiple times; if that happens, restart your PC and open LegacyUpdate repeatedly. 
+        Some updates depend on others being installed first. 
+        If after many attempts updates still fail, contact their Support or try downloading them manually from the <a href="https://catalog.update.microsoft.com/home.aspx" target="_blank">Microsoft Update Catalog</a>.
+    </div>
+
+    <!-- Welcome -->
+    <div class="section">
+        <h2>Welcome!</h2>
+        <p>
+            This Web site serves as an up-to-date source for Windows XP Related Software. Be it old versions of programs - some of which are almost lost media, as well as current (and to my amazement still updated for XP) as well as community made versions of software that should not be missing on your retro Windows computer in today's century. If you have any questions, feel free to join my discord server. I love helping people :)
+        </p>
+    </div>
+
+    <!-- Runtimes -->
+    <div class="section">
+        <h2>Runtimes (AIO = All in One)</h2>
+        <ul class="download-list">
+            <li><a href="https://github.com/abbodi1406/dotNetXP/releases" target="_blank">.NET Framework (AIO)</a></li>
+            <li><a href="https://github.com/abbodi1406/vcredist/releases" target="_blank">Microsoft Visual C++ Redistributable Runtimes (AIO)</a></li>
+            <li><a href="https://github.com/ojdkbuild/ojdkbuild/" target="_blank">Java ojdkbuild 1.8.0_332-1 for Windows XP x86</a></li>
+        </ul>
+    </div>
+
+    <!-- Tools & Utilities -->
+    <div class="section">
+        <h2>Tools & Utilities</h2>
+        <ul class="download-list">
+            <li><a href="https://www.7-zip.org/" target="_blank">7-Zip</a></li>
+            <li><a href="https://download.ccleaner.com/sunset/ccsetup564_xp-vista.exe" target="_blank">CCleaner</a></li>
+            <li><a href="https://www.zeus-software.com/downloads/nglide" target="_blank">nGlide (Windows 9X games support)</a></li>
+            <li><a href="https://www.nliteos.com/download.html" target="_blank">nLite (create custom XP Versions)</a></li>
+            <li><a href="https://notepad-plus-plus.org/downloads/v7.9.2/" target="_blank">Notepad++</a></li>
+            <li><a href="https://github.com/shorthorn-project/One-Core-API-Binaries/" target="_blank">One Core API</a>Allows running modern Windows programs on XP. – !!!Read the README before Installation!!!</li>
+            <li><a href="https://www.pandasecurity.com/de/homeusers/free-antivirus/" target="_blank">Panda Free Antivirus for XP</a></li>
+            <li><a href="https://github.com/pbatard/rufus/releases/download/v2.18/rufus-2.18.exe" target="_blank">Rufus (latest XP-compatible version)</a></li>
+            <li><a href="https://winfuture.de/downloadvorschalt,3167.html" target="_blank">WinSetupFromUSB (Alternative to Rufus)</a></li>
+        </ul>
+    </div>
+
+    <!-- Communication -->
+    <div class="section">
+        <h2>Communication</h2>
+        <ul class="download-list">
+            <li><a href="https://escargot.chat/download/" target="_blank">Escargot Windows Live Messenger</a></li>
+            <li><a href="https://iprogramincpp.com/discordmessenger/" target="_blank">Discord Messenger</a></li>
+            <li><a href="https://www.filesoul.com/software/TeamSpeak-Client-32bit/3-0-19-4-32-bit/" target="_blank">TeamSpeak</a></li>
+            <li><a href="https://web.archive.org/web/20140706084742/http://lowlevel-studios.com/apps/wassapp/wassapp_1.1.1.exe" target="_blank">WhatsApp (OUTDATED)</a></li>
+        </ul>
+    </div>
+
+    <!-- Multimedia -->
+    <div class="section">
+        <h2>Multimedia</h2>
+        <ul class="download-list">
+            <li><a href="https://github.com/NTifyApp/NTify/releases" target="_blank">Spotify for XP</a></li>
+            <li><a href="https://www.imgburn.com/" target="_blank">ImgBurn (burn/rip CDs)</a></li>
+            <li><a href="https://www.videolan.org/vlc/releases/3.0.20.html" target="_blank">VLC Media Player (latest XP-optimized version)</a></li>
+            <li><a href="https://www.wincdemu.sysprogs.org/download/" target="_blank">WinCDEmu (mount ISO files)</a></li>
+        </ul>
+    </div>
+
+    <!-- Minecraft -->
+    <div class="section">
+        <h2>Minecraft on Windows XP</h2>
+        <p>
+            Requires <a href="https://github.com/ojdkbuild/ojdkbuild/" target="_blank">Java 8 (ojdkbuild)</a> for best compatibility.
+        </p>
+        <ul class="download-list">
+            <li><a href="https://multimc.org/" target="_blank">MultiMC Launcher</a> – instance-based (recommended)</li>
+            <li><a href="https://betacraft.uk/" target="_blank">Betacraft Launcher</a> – for random alpha/infdev/indev versions</li>
+            <li><a href="https://mcarchive.net/" target="_blank">Mods, maps & more</a></li>
+        </ul>
+        <h3>Modpacks & Custom Versions</h3>
+        <ul class="download-list">
+            <li><a href="https://www.betterthanadventure.net/" target="_blank">BetterThanAdventure</a> – if Beta 1.8 never happened</li>
+            <li><a href="https://www.youtube.com/watch?v=RJPuoAqrdOs" target="_blank">Beta Unleashed</a> – Beta 1.7.3 client with optimizations & bugfixes</li>
+        </ul>
+    </div>
+
+    <!-- Discord -->
+    <div class="discord-center">
+        <a href="https://discord.gg/DEINLINK" target="_blank">
+            <span class="icon"></span>
+            <span class="text">Join Our Discord Server</span>
+        </a>
+    </div>
+
+</div>
+
+<div id="footer">
+    © 2026 Windows XP Second Edition | Optimized for 1024x768
+</div>
+
+</body>
+</html>
