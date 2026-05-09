@@ -74,6 +74,13 @@
             display: block;
         }
 
+        .info {
+            color: #006600;
+            font-weight: normal;
+            font-size: 11px;
+            display: block;
+        }
+
         a {
             color: #003399;
             font-weight: bold;
@@ -108,21 +115,35 @@
 <div id="container">
 
     <div class="disclaimer">
-        [!] Bevor Sie Software installieren, stellen Sie bitte sicher, dass Ihr System via <a href="https://legacyupdate.net/" target="_blank">LegacyUpdate.net</a> aktualisiert wurde.
+        [!] Before installing anything, please make sure your computer is updated via <a href="https://legacyupdate.net/" target="_blank">LegacyUpdate.net</a>.
     </div>
 
     <div class="section">
-        <h2>Willkommen!</h2>
+        <h2>Welcome!</h2>
         <p>
-            Diese Webseite dient als aktuelle Quelle für Windows XP-Software. Hier finden Sie alte Versionen, Lost Media und Community-Software, die auf keinem Retro-Computer des 21. Jahrhunderts fehlen sollte.
+            This Web site serves as an up-to-date source for Windows XP Related Software. It features old versions, lost media, and community-made software that should not be missing on your retro computer in today's century.
         </p>
+    </div>
+
+    <div class="section">
+        <h2>Web Browsers (Modern Web)</h2>
+        <ul class="download-list">
+            <li>
+                <a href="https://github.com/win32ss/supermium/releases/" target="_blank">Supermium</a>
+                <span class="info">Recommended: The latest Chromium-based browser for XP. Best website compatibility.</span>
+            </li>
+            <li>
+                <a href="https://github.com/Feodor2/Mypal68/releases" target="_blank">Mypal 68</a>
+                <span class="info">Modern browser based on Firefox (Gecko engine).</span>
+            </li>
+        </ul>
     </div>
 
     <div class="section">
         <h2>System Enhancements & Shell</h2>
         <ul class="download-list">
-            <li><a href="http://web.archive.org/web/20111027022204/http://www.nurgo-software.com/products/aquasnap" target="_blank">AquaSnap</a> - Bringt Aero Snap und Aero Shake (bekannt aus Windows 7) zu XP und 2000.</li>
-            <li><a href="https://github.com/shorthorn-project/One-Core-API-Binaries/" target="_blank">One Core API</a> - Ermöglicht das Ausführen moderner Windows-Programme auf XP.</li>
+            <li><a href="http://web.archive.org/web/20111027022204/http://www.nurgo-software.com/products/aquasnap" target="_blank">AquaSnap</a> - Adds Aero Snap and Aero Shake features (from Windows 7) to XP and 2000.</li>
+            <li><a href="https://github.com/shorthorn-project/One-Core-API-Binaries/" target="_blank">One Core API</a> - Allows running modern Windows programs on XP.</li>
         </ul>
     </div>
 
@@ -130,22 +151,15 @@
         <h2>Runtimes (AIO & Java)</h2>
         <ul class="download-list">
             <li><a href="https://github.com/abbodi1406/dotNetXP/releases" target="_blank">.NET Framework (AIO)</a></li>
-            <li><a href="https://github.com/abbodi1406/vcredist/releases" target="_blank">Microsoft Visual C++ Redistributables (AIO)</a></li>
+            <li><a href="https://github.com/abbodi1406/vcredist/releases" target="_blank">Microsoft Visual C++ Redistributable Runtimes (AIO)</a></li>
             <li>
                 <a href="https://archive.org/details/jre-8u251-windows-i586.tar" target="_blank">Java JRE 8u251 (Portable)</a>
-                <span class="warning">Empfohlen: Die letzte stabile Version für XP. Muss manuell entpackt werden.</span>
+                <span class="warning">Recommended: The true latest stable version for XP. Must be extracted manually.</span>
             </li>
             <li>
                 <a href="https://github.com/ojdkbuild/ojdkbuild/" target="_blank">Java ojdkbuild 1.8.0_332-1</a>
-                <span class="warning">Achtung: Neuer, aber oft instabil auf XP-Systemen.</span>
+                <span class="warning">Note: Newer, but known to be unstable on many XP systems.</span>
             </li>
-        </ul>
-    </div>
-
-    <div class="section">
-        <h2>Web-Browser (Modernes Web)</h2>
-        <ul class="download-list">
-            <li><a href="https://github.com/Feodor2/Mypal68/releases" target="_blank">Mypal 68</a> - Der aktuellste Webbrowser für Windows XP (Firefox-basiert).</li>
         </ul>
     </div>
 
@@ -154,16 +168,16 @@
         <ul class="download-list">
             <li><a href="https://www.7-zip.org/" target="_blank">7-Zip</a></li>
             <li><a href="https://download.ccleaner.com/sunset/ccsetup564_xp-vista.exe" target="_blank">CCleaner (Last XP Version)</a></li>
-            <li><a href="https://tmafe.com/" target="_blank">The Microsoft Agent Fansite (TMAFE)</a> - Tools für BonziBuddy und Co.</li>
-            <li><a href="https://www.zeus-software.com/downloads/nglide" target="_blank">nGlide</a> - Support für 3dfx Voodoo/Glide Spiele.</li>
-            <li><a href="https://www.nliteos.com/download.html" target="_blank">nLite</a> - Eigene XP-Installationsmedien erstellen.</li>
+            <li><a href="https://tmafe.com/" target="_blank">The Microsoft Agent Fansite (TMAFE)</a></li>
+            <li><a href="https://www.zeus-software.com/downloads/nglide" target="_blank">nGlide (Glide support)</a></li>
+            <li><a href="https://www.nliteos.com/download.html" target="_blank">nLite (Custom ISOs)</a></li>
             <li><a href="https://notepad-plus-plus.org/downloads/v7.9.2/" target="_blank">Notepad++ (v7.9.2)</a></li>
-            <li><a href="https://www.softpedia.com/get/Multimedia/Graphic/Graphic-Capture/XP-Snipping-Tool.shtml#download" target="_blank">XP Snipping Tool</a> - Das Windows 7/10 Tool für XP.</li>
+            <li><a href="https://www.softpedia.com/get/Multimedia/Graphic/Graphic-Capture/XP-Snipping-Tool.shtml#download" target="_blank">XP Snipping Tool</a></li>
         </ul>
     </div>
 
     <div class="section">
-        <h2>Kommunikation</h2>
+        <h2>Communication</h2>
         <ul class="download-list">
             <li><a href="https://escargot.chat/download/" target="_blank">Escargot MSN / Windows Live Messenger</a></li>
             <li><a href="https://iprogramincpp.com/discordmessenger/" target="_blank">Discord Messenger for XP</a></li>
@@ -182,7 +196,7 @@
     </div>
 
     <div class="section">
-        <h2>Gaming (Minecraft)</h2>
+        <h2>Minecraft on Windows XP</h2>
         <ul class="download-list">
             <li><a href="https://multimc.org/" target="_blank">MultiMC Launcher</a></li>
             <li><a href="https://betacraft.uk/" target="_blank">Betacraft Launcher</a></li>
@@ -200,7 +214,7 @@
 </div>
 
 <div id="footer">
-    &copy; 2026 Windows XP Second Edition | Optimiert für Internet Explorer & 1024x768
+    &copy; 2026 Windows XP Second Edition | Optimized for Internet Explorer & 1024x768
 </div>
 
 </body>
